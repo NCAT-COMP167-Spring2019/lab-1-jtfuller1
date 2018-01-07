@@ -34,4 +34,14 @@ Now that you know some of the basic terms, lets move into this lab. The first th
       
 ### What is an IDE?
 
-An IDE, or an Integrated Development Environment, is a tool developers use when writing software. Good IDE's endeavor to make often repeated tasks as easy as possible for developers, as well as help developers avoid errors by providing services like autocompletion, linting, and debugging.
+An IDE, or an Integrated Development Environment, is a tool developers use when writing software. Good IDE's endeavor to make often repeated tasks as easy as possible for developers, as well as help developers avoid errors by providing services like autocompletion, linting, and debugging. NetBeans, the IDE we will use, was created by Oracle specifically to work for Java developers, like us.
+
+### Opening the Project
+
+For this lab, the NetBeans project is already created for you. In future labs, you will learn how to create and configure your own NetBeans project.
+
+   1. Launch the NetBeans application.
+   2. Select "File" and "Open Project". Navigate to your newly cloned repository and double-click on the project called _Contacts_.
+   3. The left-hand side of your screen should show your project hierarchy, **source files**, or files ending in the .java file extension, are located under "Contacts -> Source Packages -> contacts".
+         * All source files in a NetBeans project will need to be located in a package. Source files not in a named package are said to be in the **default package**. 
+   4. Open all source files and take a look at the project you have been provided.
