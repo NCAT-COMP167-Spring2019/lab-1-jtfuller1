@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  *
  * @author CCannon
  */
-public class Contacts extends Application {
+public class ContactsApp extends Application {
     
     @Override
     public void start(Stage primaryStage) {
