@@ -45,3 +45,20 @@ For this lab, the NetBeans project is already created for you. In future labs, y
    3. The left-hand side of your screen should show your project hierarchy, **source files**, or files ending in the .java file extension, are located under "Contacts -> Source Packages -> contacts".
          * All source files in a NetBeans project will need to be located in a package. Source files not in a named package are said to be in the **default package**. 
    4. Open all source files and take a look at the project you have been provided.
+
+### Debug the Program
+
+The project is currently in an unworkable state. Use the error messages and the debugger provided by NetBeans to try and restore your program to a working state. TA's will not point out errors or instruct you on how to fix them for the first part of class. Use online resources and your problem solving skills to the best of your ability, and collaborate with other students in the lab. When you think you have a fully functioning program, ask a TA to check it.
+
+### Commit and Push!
+
+These final steps are the _most important_ parts of this lab. Committing and pushing often is absolutely _essential_ to using git effectively. Every time you make a change, and that change works successfully, you should commit and push your work. This has two major benefits. **1)** Committing and pushing backs up your data against any hardware failure of your local machine. **2)** You can roll back to your last commit easily in git by using the command `git reset --hard`. Therefore, every time you succeed at something, you should commit, so that if your next change fails, you don't need to waste time undoing every single wrong thing you typed (trust me, there will be a lot in this class).
+
+To commit and push, follow these steps:
+
+   1. Save ALL files changed in NetBeans.
+   2. Return to your git bash window, and run the command `git add .`. In this case, the period represents your current working directory, and this command tells git to add all of your changes inside the current directory (your git repository) to the **staging area**, which means they are ready to commit.
+   3. Run the command `git commit -m "[COMMIT-MESSAGE-HERE]"`. This will make a commit with a commit message of your choosing.
+      * Commit messages should be no more than 55 characters, and should explain the change that this commit will make to your code. For example "Adds drag and drop functionality to ListView" or "Refactors while loop to include a base case" are excellent, concise, clear commit messages.
+   4. Finally, run `git push` to **push** your local changes to your remote repository, which as we discussed, is hosted on GitHub.
+      * At this point, you should refresh your GitHub page to see that your code has pushed successfully.
