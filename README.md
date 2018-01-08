@@ -24,8 +24,7 @@ In this class, we will complete all programming assignments on GitHub, this will
 Now that you know some of the basic terms, lets move into this lab. The first thing you must do is **clone** the repository, or create a **local** copy of the repository on your computer. to do this, you will need to launch the **git bash** app on your lab computer. If you are using your own computer, install git by following the instructions for your operating system on [the git website](www.git-scm.com).
 
    1. Clone the repository.
-      * After opening git bash, type the command `cd Documents` and press enter. This will change the current directory in your terminal to your Documents directory.
-      * Next, create a directory to hold all of your git repositories. Type the command `mkdir COMP167` and press enter. Now, if you type the command `ls` and press enter you should see your new _COMP167_ directory listed. Change to this directory by entering `cd COMP167` and pressing enter.
+      * After opening git bash, create a directory to hold all of your git repositories. Type the command `mkdir COMP167` and press enter. Now, if you type the command `ls` and press enter you should see your new _COMP167_ directory listed. Change to this directory by entering `cd COMP167` and pressing enter.
       * You will need to acquire the link to your remote git repository. Click the green _Clone or Download_ button above these instructions and copy the link provided.
       * Finally, you can clone your repository by entering `git clone [PASTE-LINK-HERE]`. Note that the square brackets are only to separate your information from the actual command you should type. After pasing your link, you command should look something like this `git clone https://github.com/NCAT-COMP167-Spring2018-Lab-1-ccannon94.git`.
    2. Open the repository and project.
