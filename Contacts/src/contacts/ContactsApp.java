@@ -83,7 +83,6 @@ public class ContactsApp extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        loadContacts(args[0]);
         launch(args);
     }
     
