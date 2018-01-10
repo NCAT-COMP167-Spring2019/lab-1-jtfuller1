@@ -21,7 +21,7 @@ In this class, we will complete all programming assignments on GitHub, this will
 
 ### Setiing Up for the Lab
 
-Now that you know some of the basic terms, lets move into this lab. The first thing you must do is **clone** the repository, or create a **local** copy of the repository on your computer. to do this, you will need to launch the **git bash** app on your lab computer. If you are using your own computer, install git by following the instructions for your operating system on [the git website](www.git-scm.com).
+Now that you know some of the basic terms, lets move into this lab. The first thing you must do is **clone** the repository, or create a **local** copy of the repository on your computer. to do this, you will need to launch the **git bash** app on your lab computer. If you are using your own computer, install git by following the instructions for your operating system on [the git website](https://www.git-scm.com).
 
    1. Clone the repository.
       * After opening git bash, create a directory to hold all of your git repositories. Type the command `mkdir COMP167` and press enter. Now, if you type the command `ls` and press enter you should see your new _COMP167_ directory listed. Change to this directory by entering `cd COMP167` and pressing enter.
